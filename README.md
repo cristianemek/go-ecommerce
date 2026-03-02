@@ -14,3 +14,5 @@
 - Para el middleware se ha optado por utilizar chi, un router ligero y rápido para Go. Chi ofrece una sintaxis sencilla y un rendimiento excelente, lo que lo hace ideal para manejar rutas y middleware en aplicaciones web.
 
 - Para las migraciones de la base de datos, se ha optado por goose, por su simplicidad y eficacia para gestionar cambios en la estructura de la base de datos. Goose permite escribir migraciones en SQL o Go. Al utilizar goose, podemos mantener un control de versiones claro sobre los cambios en la base de datos y facilitar el proceso de despliegue y mantenimiento.
+
+-Slog para los logs estructurados, paquete estandar de Go para logging estructurado. Slog ofrece una forma eficiente y flexible de registrar eventos y errores en la aplicación, lo que facilita el monitoreo y la depuración.
