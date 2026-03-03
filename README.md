@@ -66,3 +66,4 @@
         return repo.Product{}, fmt.Errorf("validation error: %w", err)
     }
     ```
+- Endpoint traer orden por id.
